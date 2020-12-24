@@ -1,0 +1,41 @@
+{
+  "name": "cra-antd-cli",
+  "version": "1.0.0",
+  "description": "A CLI Tool for create a react app with antd",
+  "main": "index.js",
+  "bin": {
+    "cra-antd-cli": "bin/cra-antd-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MTI",
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ],
+    "**/*.{css,less,scss,html,json,md,markdown},": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
