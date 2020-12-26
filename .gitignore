@@ -139,4 +139,4 @@ dist
 
 # project
 *.zip
-.temp
+.temp*
