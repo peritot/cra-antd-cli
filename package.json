@@ -2,6 +2,21 @@
   "name": "cra-antd-cli",
   "version": "1.0.0",
   "description": "A CLI Tool for create a react app with antd",
+  "keywords": [
+    "cli",
+    "react",
+    "antd"
+  ],
+  "author": {
+    "name": "peritot",
+    "email": "peritotchan@gmail.com"
+  },
+  "homepage": "https://github.com/peritot/cra-antd-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peritot/cra-antd-cli"
+  },
+  "license": "MTI",
   "main": "index.js",
   "bin": {
     "cra-antd-cli": "bin/cra-antd-cli.js"
@@ -11,9 +26,6 @@
     "lib"
   ],
   "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "MTI",
   "devDependencies": {
     "eslint": "^7.16.0",
     "eslint-config-airbnb-base": "^14.2.1",
