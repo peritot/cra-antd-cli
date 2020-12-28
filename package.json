@@ -1,17 +1,19 @@
 {
   "name": "cra-antd-cli",
-  "version": "1.0.0",
-  "description": "A CLI Tool for create a react app with antd",
+  "version": "1.0.1",
+  "description": "A CLI Tool for create a react app with antd, react route, react redux etc.",
   "keywords": [
     "cli",
     "react",
+    "route",
+    "redux",
     "antd"
   ],
   "author": {
     "name": "peritot",
     "email": "peritotchan@gmail.com"
   },
-  "homepage": "https://github.com/peritot/cra-antd-cli",
+  "homepage": "https://github.com/peritot/cra-antd-cli#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/peritot/cra-antd-cli"
